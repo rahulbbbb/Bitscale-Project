@@ -16,7 +16,7 @@ export function TopNav() {
       {/* Left Section */}
       <div className='flex items-center gap-4'>
         <h1 className='text-lg font-semibold text-gray-800 dark:text-gray-100'>
-          COA Data
+          Log Book Data
         </h1>
       </div>
 
