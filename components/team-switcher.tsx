@@ -10,7 +10,6 @@ import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-  useSidebar,
 } from "@/components/ui/sidebar"
 
 export function TeamSwitcher({
@@ -22,7 +21,7 @@ export function TeamSwitcher({
     plan: string
   }[]
 }) {
-  const [activeTeam, setActiveTeam] = React.useState(teams[0])
+  // const [activeTeam, setActiveTeam] = React.useState(teams[0])
 
   return (
     <SidebarMenu>
@@ -38,9 +37,9 @@ export function TeamSwitcher({
               </div>
               <div className="grid flex-1 text-left text-sm leading-tight">
                 <span className="truncate font-semibold">
-                  {activeTeam.name}
+                  {teams[0].name}
                 </span>
-                <span className="truncate text-xs">{activeTeam.plan}</span>
+                <span className="truncate text-xs">{teams[0].plan}</span>
               </div>
               {/* <ChevronsUpDown className="ml-auto" /> */}
             </SidebarMenuButton>
