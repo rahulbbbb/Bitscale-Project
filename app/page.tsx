@@ -2,7 +2,7 @@
 
 import { Img, Img2, Img3, NavIcon1, NavIcon4, NavIcon5, NavIcon6, NavIcon7, SvgComponent, SvgComponentt } from '@/components/ui/icon'
 import { useState } from 'react'
-import { FaFileAlt, FaCogs, FaBuilding, FaSearch } from 'react-icons/fa'
+import { FaFileAlt,  FaSearch } from 'react-icons/fa'
 
 export default function Home() {
   const [columns, setColumns] = useState([

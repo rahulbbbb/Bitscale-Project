@@ -4,7 +4,6 @@ import "./globals.css";
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import { AppSidebar } from "@/components/app-sidebar";
 import { ThemeProvider } from "@/components/theme-provider";
-import { ModeToggle } from "@/components/mode-toogle";
 import { TopNav } from "@/components/Topnav";
 
 const geistSans = localFont({

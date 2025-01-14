@@ -1,7 +1,6 @@
 'use client'
 
 import React, { useState } from 'react'
-import { ModeToggle } from '@/components/mode-toogle'
 
 export function TopNav() {
   const [isToggled, setIsToggled] = useState(true);
