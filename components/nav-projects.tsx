@@ -31,7 +31,7 @@ export function NavProjects({
   projects: {
     name: string
     url: string
-    icon: any
+    icon: React.ElementType;
   }[]
 }) {
   const { isMobile } = useSidebar()
